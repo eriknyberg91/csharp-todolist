@@ -1,9 +1,9 @@
 ﻿
     internal class Todo
     {
-        int Id { get; set; }
-        string Title { get; set; }
-        bool isCompleted { get; set; }
+        public string Id { get; set; }
+        public string Title { get; set; }
+        public bool isCompleted { get; set; }
 
         //Add Date created
 
